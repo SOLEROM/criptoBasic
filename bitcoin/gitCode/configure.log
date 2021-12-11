@@ -1,0 +1,624 @@
+
+
+solov@vostro14:/data/redef/bitCoinGit/bitcoin$ ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking whether g++ supports C++17 features with -std=c++17... yes
+checking whether std::atomic can be used without link library... yes
+checking whether we are using the GNU Objective C++ compiler... no
+checking whether g++ -std=c++17 accepts -g... no
+checking dependency style of g++ -std=c++17... gcc3
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -std=c++17 -E
+checking for ld used by g++ -std=c++17... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ -std=c++17 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ -std=c++17 option to produce PIC... -fPIC -DPIC
+checking if g++ -std=c++17 PIC flag -fPIC -DPIC works... yes
+checking if g++ -std=c++17 static flag -static works... yes
+checking if g++ -std=c++17 supports -c -o file.o... yes
+checking if g++ -std=c++17 supports -c -o file.o... (cached) yes
+checking whether the g++ -std=c++17 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ar... /usr/bin/ar
+checking for ranlib... /usr/bin/ranlib
+checking for strip... /usr/bin/strip
+checking for gcov... /usr/bin/gcov
+checking for llvm-cov... no
+checking for lcov... no
+checking for python3.6... /usr/bin/python3.6
+checking for genhtml... no
+checking for git... /usr/bin/git
+checking for ccache... no
+checking for xgettext... /usr/bin/xgettext
+checking for hexdump... /usr/bin/hexdump
+checking for c++filt... /usr/bin/c++filt
+checking for objcopy... /usr/bin/objcopy
+checking for doxygen... no
+checking whether C++ compiler accepts -Werror... yes
+checking whether the linker accepts -Wl,--fatal-warnings... yes
+checking whether C++ compiler accepts -Wall... yes
+checking whether C++ compiler accepts -Wextra... yes
+checking whether C++ compiler accepts -Wgnu... no
+checking whether C++ compiler accepts -Wformat -Wformat-security... yes
+checking whether C++ compiler accepts -Wvla... yes
+checking whether C++ compiler accepts -Wshadow-field... no
+checking whether C++ compiler accepts -Wswitch... yes
+checking whether C++ compiler accepts -Wthread-safety... no
+checking whether C++ compiler accepts -Wrange-loop-analysis... no
+checking whether C++ compiler accepts -Wredundant-decls... yes
+checking whether C++ compiler accepts -Wunused-variable... yes
+checking whether C++ compiler accepts -Wunused-member-function... no
+checking whether C++ compiler accepts -Wdate-time... yes
+checking whether C++ compiler accepts -Wconditional-uninitialized... no
+checking whether C++ compiler accepts -Wsign-compare... yes
+checking whether C++ compiler accepts -Wduplicated-branches... yes
+checking whether C++ compiler accepts -Wduplicated-cond... yes
+checking whether C++ compiler accepts -Wlogical-op... yes
+checking whether C++ compiler accepts -Woverloaded-virtual... yes
+checking whether C++ compiler accepts -Wsuggest-override... no
+checking whether C++ compiler accepts -Wunreachable-code-loop-increment... no
+checking whether C++ compiler accepts -Wimplicit-fallthrough... yes
+checking whether C++ compiler accepts -Wunused-parameter... yes
+checking whether C++ compiler accepts -Wself-assign... no
+checking whether C++ compiler accepts -Wunused-local-typedef... no
+checking whether C++ compiler accepts -Wdeprecated-copy... no
+checking whether C++ compiler accepts -fno-extended-identifiers... yes
+checking whether C++ compiler accepts -msse4.2... yes
+checking whether C++ compiler accepts -msse4.1... yes
+checking whether C++ compiler accepts -mavx -mavx2... yes
+checking whether C++ compiler accepts -msse4 -msha... yes
+checking for SSE4.2 intrinsics... yes
+checking for SSE4.1 intrinsics... yes
+checking for AVX2 intrinsics... yes
+checking for SHA-NI intrinsics... yes
+checking whether C++ compiler accepts -march=armv8-a+crc+crypto... no
+checking for ARM CRC32 intrinsics... no
+checking for __int128... yes
+checking whether byte ordering is bigendian... no
+checking whether gcc is Clang... no
+checking whether pthreads work with "-pthread" and "-lpthread"... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking for library containing clock_gettime... none required
+checking whether C++ compiler accepts -fPIC... yes
+checking whether C++ compiler accepts -fstack-reuse=none... yes
+checking whether C++ compiler accepts -Wstack-protector... yes
+checking whether C++ compiler accepts -fstack-protector-all... yes
+checking whether the linker accepts -fcf-protection=full... no
+checking whether C++ compiler accepts -fstack-clash-protection... no
+checking whether C++ preprocessor accepts -D_FORTIFY_SOURCE=2... yes
+checking whether C++ preprocessor accepts -U_FORTIFY_SOURCE... yes
+checking whether the linker accepts -Wl,--enable-reloc-section... no
+checking whether the linker accepts -Wl,--dynamicbase... no
+checking whether the linker accepts -Wl,--nxcompat... no
+checking whether the linker accepts -Wl,--high-entropy-va... no
+checking whether the linker accepts -Wl,-z,relro... yes
+checking whether the linker accepts -Wl,-z,now... yes
+checking whether the linker accepts -Wl,-z,separate-code... yes
+checking whether the linker accepts -fPIE -pie... yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking byteswap.h usability... yes
+checking byteswap.h presence... yes
+checking for byteswap.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/sysctl.h usability... yes
+checking sys/sysctl.h presence... yes
+checking for sys/sysctl.h... yes
+checking vm/vm_param.h usability... no
+checking vm/vm_param.h presence... no
+checking for vm/vm_param.h... no
+checking sys/vmmeter.h usability... no
+checking sys/vmmeter.h presence... no
+checking for sys/vmmeter.h... no
+checking sys/resources.h usability... no
+checking sys/resources.h presence... no
+checking for sys/resources.h... no
+checking whether getifaddrs is declared... yes
+checking whether ifaddrs funcs can be used without link library... yes
+checking whether freeifaddrs is declared... yes
+checking whether ifaddrs funcs can be used without link library... yes
+checking whether strnlen is declared... yes
+checking whether fork is declared... yes
+checking whether setsid is declared... yes
+checking whether pipe2 is declared... yes
+checking whether le16toh is declared... yes
+checking whether le32toh is declared... yes
+checking whether le64toh is declared... yes
+checking whether htole16 is declared... yes
+checking whether htole32 is declared... yes
+checking whether htole64 is declared... yes
+checking whether be16toh is declared... yes
+checking whether be32toh is declared... yes
+checking whether be64toh is declared... yes
+checking whether htobe16 is declared... yes
+checking whether htobe32 is declared... yes
+checking whether htobe64 is declared... yes
+checking whether bswap_16 is declared... yes
+checking whether bswap_32 is declared... yes
+checking whether bswap_64 is declared... yes
+checking for __builtin_clzl... yes
+checking for __builtin_clzll... yes
+checking for getmemoryinfo... yes
+checking for mallopt M_ARENA_MAX... yes
+checking for posix_fallocate... yes
+checking for default visibility attribute... yes
+checking for dllexport attribute... no
+checking for thread_local support... yes
+checking for gmtime_r... yes
+checking for Linux getrandom syscall... yes
+checking for getentropy... yes
+checking for getentropy via random.h... yes
+checking for sysctl... no
+checking for sysctl KERN_ARND... no
+checking for if type char equals int8_t... no
+checking for fdatasync... yes
+checking for F_FULLFSYNC... no
+checking for O_CLOEXEC... yes
+checking for __builtin_prefetch... yes
+checking for _mm_prefetch... yes
+checking for strong getauxval support in the system headers... no
+checking for weak getauxval support in the compiler... yes
+checking for std::system... yes
+checking for ::_wsystem... no
+checking for QT_CORE... yes
+checking for QT_GUI... yes
+checking for QT_WIDGETS... yes
+checking for QT_NETWORK... yes
+checking for QT_TEST... yes
+checking for QT_DBUS... yes
+checking for static Qt... no
+checking whether -fPIE can be used with this Qt config... no
+checking for moc-qt5... no
+checking for moc5... no
+checking for moc... /usr/lib/qt5/bin/moc
+checking for uic-qt5... no
+checking for uic5... no
+checking for uic... /usr/lib/qt5/bin/uic
+checking for rcc-qt5... no
+checking for rcc5... no
+checking for rcc... /usr/lib/qt5/bin/rcc
+checking for lrelease-qt5... no
+checking for lrelease5... no
+checking for lrelease... /usr/lib/qt5/bin/lrelease
+checking for lupdate-qt5... no
+checking for lupdate5... no
+checking for lupdate... /usr/lib/qt5/bin/lupdate
+checking for lconvert-qt5... no
+checking for lconvert5... no
+checking for lconvert... /usr/lib/qt5/bin/lconvert
+checking whether to build Bitcoin Core GUI... yes (Qt5)
+checking for SQLITE... yes
+checking whether to build wallet with support for sqlite... yes
+checking whether eBPF tracepoints are supported... yes
+checking miniupnpc/miniupnpc.h usability... yes
+checking miniupnpc/miniupnpc.h presence... yes
+checking for miniupnpc/miniupnpc.h... yes
+checking for upnpDiscover in -lminiupnpc... yes
+checking miniupnpc/upnpcommands.h usability... yes
+checking miniupnpc/upnpcommands.h presence... yes
+checking for miniupnpc/upnpcommands.h... yes
+checking for upnpDiscover in -lminiupnpc... (cached) yes
+checking miniupnpc/upnperrors.h usability... yes
+checking miniupnpc/upnperrors.h presence... yes
+checking for miniupnpc/upnperrors.h... yes
+checking for upnpDiscover in -lminiupnpc... (cached) yes
+checking whether miniUPnPc API version is supported... yes
+checking natpmp.h usability... yes
+checking natpmp.h presence... yes
+checking for natpmp.h... yes
+checking for initnatpmp in -lnatpmp... yes
+checking for boostlib >= 1.64.0 (106400)... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Filesystem library is available... yes
+checking for exit in -lboost_filesystem... yes
+checking whether the Boost::Unit_Test_Framework library is available... yes
+checking for dynamic linked boost test... yes
+checking for EVENT... yes
+checking for EVENT_PTHREADS... yes
+checking for QR... yes
+checking for ZMQ... yes
+checking for LIBMULTIPROCESS... no
+checking whether to build bitcoind... yes
+checking whether to build bitcoin-cli... yes
+checking whether to build bitcoin-tx... yes
+checking whether to build bitcoin-wallet... yes
+checking whether to build bitcoin-util... yes
+checking whether to build libraries... yes
+checking if ccache should be used... no
+checking if wallet should be enabled... yes
+checking whether to build with support for UPnP... yes
+checking whether to build with UPnP enabled by default... no
+checking whether to build with support for NAT-PMP... yes
+checking whether to build with NAT-PMP enabled by default... no
+checking whether to build GUI with support for D-Bus... yes
+checking whether to build GUI with support for QR codes... yes
+checking whether to build test_bitcoin-qt... yes
+checking whether to build test_bitcoin... yes
+checking whether to reduce exports... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating libbitcoinconsensus.pc
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating doc/man/Makefile
+config.status: creating share/setup.nsi
+config.status: creating share/qt/Info.plist
+config.status: creating test/config.ini
+config.status: creating contrib/devtools/split-debug.sh
+config.status: creating src/config/bitcoin-config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in src/univalue (/data/redef/bitCoinGit/bitcoin/src/univalue)
+configure: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  'BDB_LIBS=-L/data/redef/bitCoinGit/bitcoin/db4/lib -ldb_cxx-4.8' 'BDB_CFLAGS=-I/data/redef/bitCoinGit/bitcoin/db4/include' '--disable-shared' '--with-pic' '--enable-benchmark=no' '--enable-module-recovery' '--enable-module-schnorrsig' '--enable-experimental' --cache-file=/dev/null --srcdir=.
+checking whether make supports nested variables... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pc/libunivalue.pc
+config.status: creating pc/libunivalue-uninstalled.pc
+config.status: creating univalue-config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in src/secp256k1 (/data/redef/bitCoinGit/bitcoin/src/secp256k1)
+configure: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  'BDB_LIBS=-L/data/redef/bitCoinGit/bitcoin/db4/lib -ldb_cxx-4.8' 'BDB_CFLAGS=-I/data/redef/bitCoinGit/bitcoin/db4/include' '--disable-shared' '--with-pic' '--enable-benchmark=no' '--enable-module-recovery' '--enable-module-schnorrsig' '--enable-experimental' --cache-file=/dev/null --srcdir=.
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking whether make supports nested variables... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ar... /usr/bin/ar
+checking for ranlib... /usr/bin/ranlib
+checking for strip... /usr/bin/strip
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... gcc3
+checking if gcc supports -std=c89 -pedantic -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes -Wundef -Wno-unused-function -Wno-long-long -Wno-overlength-strings... yes
+checking if gcc supports -Wconditional-uninitialized... no
+checking if gcc supports -fvisibility=hidden... yes
+checking valgrind/memcheck.h usability... no
+checking valgrind/memcheck.h presence... no
+checking for valgrind/memcheck.h... no
+checking for x86_64 assembly availability... yes
+checking for CRYPTO... yes
+checking for main in -lcrypto... yes
+checking for EC functions in libcrypto... yes
+configure: ******
+configure: WARNING: experimental build
+configure: Experimental features do not have stable APIs or properties, and may not be safe for production use.
+configure: Building extrakeys module: yes
+configure: Building schnorrsig module: yes
+configure: ******
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libsecp256k1.pc
+config.status: creating src/libsecp256k1-config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+Build Options:
+  with ecmult precomp     = yes
+  with external callbacks = no
+  with benchmarks         = no
+  with tests              = yes
+  with openssl tests      = yes
+  with coverage           = no
+  module ecdh             = no
+  module recovery         = yes
+  module extrakeys        = yes
+  module schnorrsig       = yes
+
+  asm                     = x86_64
+  ecmult window size      = 15
+  ecmult gen prec. bits   = 4
+
+  valgrind                = no
+  CC                      = gcc
+  CFLAGS                  = -O2 -fvisibility=hidden -std=c89 -pedantic -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes -Wundef -Wno-unused-function -Wno-long-long -Wno-overlength-strings -W -g
+  CPPFLAGS                =  
+  LDFLAGS                 = 
+
+  CC_FOR_BUILD            = gcc
+  CFLAGS_FOR_BUILD        = -O2 -fvisibility=hidden -std=c89 -pedantic -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes -Wundef -Wno-unused-function -Wno-long-long -Wno-overlength-strings -W -g
+  CPPFLAGS_FOR_BUILD      =  
+  LDFLAGS_FOR_BUILD       = 
+
+Options used to compile and link:
+  external signer = yes
+  multiprocess    = no
+  with libs       = yes
+  with wallet     = yes
+    with sqlite   = yes
+    with bdb      = yes
+  with gui / qt   = yes
+    with qr       = yes
+  with zmq        = yes
+  with test       = yes
+  with bench      = yes
+  with upnp       = yes
+  with natpmp     = yes
+  use asm         = yes
+  ebpf tracing    = yes
+  sanitizers      = 
+  debug enabled   = no
+  gprof enabled   = no
+  werror          = no
+
+  target os       = linux
+  build os        = linux-gnu
+
+  CC              = gcc
+  CFLAGS          = -pthread -g -O2
+  CPPFLAGS        =   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -DPROVIDE_FUZZ_MAIN_FUNCTION
+  CXX             = g++ -std=c++17
+  CXXFLAGS        =   -fstack-reuse=none -Wstack-protector -fstack-protector-all  -Wall -Wextra -Wformat -Wformat-security -Wvla -Wswitch -Wredundant-decls -Wunused-variable -Wdate-time -Wsign-compare -Wduplicated-branches -Wduplicated-cond -Wlogical-op -Woverloaded-virtual -Wimplicit-fallthrough  -Wno-unused-parameter   -g -O2 -fno-extended-identifiers
+  LDFLAGS         = -lpthread  -Wl,-z,relro -Wl,-z,now -Wl,-z,separate-code -pie  
+  ARFLAGS         = cr
+
