@@ -42,6 +42,9 @@
 ## demoPlay 
 * [play1](demoPlay/readme.md)
 
+## tools
+* [python-bitcoinlib](tools/python-bitcoinlib.md)
+
 ## bitcoinExplorer  
 * [bx tools](bitcoinExplorer/readme.md)
 * [bx cmds](bitcoinExplorer/bx_cmds.md)
