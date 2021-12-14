@@ -16,9 +16,6 @@
 ## infra
 * [infra1](infra/infra1.md)
 
-## advanced
-* [pay-to-Script](advanced/p2sh.md) 
-
 ## keys   
 * [keys](keys/keys.md)
 * [address](keys/bitcoinAddress.md)
@@ -38,6 +35,37 @@
 * [explore1](transactions/explore1.md)
 * [explore1000](transactions/explore_block1000.md)
 
+
+## advanced
+* [multisignature](advanced/multisignature.md)  
+* [pay-to-Script](advanced/p2sh.md)
+* [return](advanced/return.md)
+* [timelocks](advanced/timelocks.md)
+* [flowControl](advanced/flowControl.md)
+* [segwit](advanced/segwit.md)
+
+
+## network
+* [p2p](network/p2p.md)
+* [discover](network/discover.md)
+* [dnsSeed](network/dnsSeed.md)
+* [fibre](network/fibre.md)
+* [fullNodes](network/fullNodes.md)
+* [getpeerinfo](network/getpeerinfo.md)
+* [nodes](network/nodes.md)
+* [spv](network/spv.md)
+* [torTranspor](network/torTranspor.md)
+
+
+
+
+
+
+
+## issues
+* [Malleability](issues/malleability.md)
+* [bloomFilters](issues/bloomFilters.md)
+* [sybil](issues/sybil.md)
 
 ## demoPlay 
 * [play1](demoPlay/readme.md)

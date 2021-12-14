@@ -1,5 +1,13 @@
 # bx : general purpose Bitcoin command line utility
 
+## about
+* [bx_cmds](bx_cmds.md)
+* [bxKeys](bxKeys.md)
+* [bx_settings](bx_settings.md)
+
+
+## install
+
 * from src 
 
 ```

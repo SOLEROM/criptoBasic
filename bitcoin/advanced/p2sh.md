@@ -10,9 +10,5 @@
 script hash = RIPEMD160(SHA256(script))
 ```
 
-##  multi-signature address script
-
-* multi-signature feature is designed to require M signatures (also known as the “threshold”) from a total of N keys, known as an M-of-N multisig, where M is equal to or less than N
-
 
 
