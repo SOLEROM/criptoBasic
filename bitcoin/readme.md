@@ -57,8 +57,16 @@
 * [torTranspor](network/torTranspor.md)
 
 
+## blockchain
+* [blockStruct](blockchain/blockStruct.md)
+* [genesisBlock](blockchain/genesisBlock.md)
+* [merkleTrees](blockchain/merkleTrees.md)
+* [nonProduction](blockchain/nonProduction.md)
 
 
+## ideas
+* [forkology](ideas/forkology.md)
+* [walletConsolidation](ideas/walletConsolidation.md)
 
 
 
