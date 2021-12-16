@@ -1,0 +1,56 @@
+
+
+>> getblockcount
+251576
+
+>> getblockhash 251576
+0000000000000033b7bb189eb182309cb5fbbd67963a8df171c676afce4c020f
+
+>> getblockheader 0000000000000033b7bb189eb182309cb5fbbd67963a8df171c676afce4c020f
+{
+  "hash": "0000000000000033b7bb189eb182309cb5fbbd67963a8df171c676afce4c020f",
+  "confirmations": 1,
+  "height": 251576,
+  "version": 2,
+  "versionHex": "00000002",
+  "merkleroot": "5d7274e83747f052f5321f7e3dd73bf18612167ffe1b459e1849fd28975517e5",
+  "time": 1376244069,
+  "mediantime": 1376240741,
+  "nonce": 530285417,
+  "bits": "1972dbf2",
+  "difficulty": 37392766.13647456,
+  "chainwork": "00000000000000000000000000000000000000000000008ecc8b8f0a0ff168af",
+  "nTx": 347,
+  "previousblockhash": "00000000000000710f1ac6c148c4621c43ce04a516223d66f6bf601fa7230288"
+}
+
+
+dok_fflo_bitcli getblock 0000000000000033b7bb189eb182309cb5fbbd67963a8df171c676afce4c020f
+{
+  "hash": "0000000000000033b7bb189eb182309cb5fbbd67963a8df171c676afce4c020f",
+  "confirmations": 1,
+  "strippedsize": 147678,
+  "size": 147678,
+  "weight": 590712,
+  "height": 251576,
+  "version": 2,
+  "versionHex": "00000002",
+  "merkleroot": "5d7274e83747f052f5321f7e3dd73bf18612167ffe1b459e1849fd28975517e5",
+  "tx": [
+    "dea241deb3fb234e8e6e211fd5ec82790d70e992d1839e03de865f7c5fbb7eb0",
+...
+.............
+.......................
+
+    "43a99b8165d0ae8e2dc2a71e623378aa633901672b287f6e15b7723a170b2465"
+  ],
+  "time": 1376244069,
+  "mediantime": 1376240741,
+  "nonce": 530285417,
+  "bits": "1972dbf2",
+  "difficulty": 37392766.13647456,
+  "chainwork": "00000000000000000000000000000000000000000000008ecc8b8f0a0ff168af",
+  "nTx": 347,
+  "previousblockhash": "00000000000000710f1ac6c148c4621c43ce04a516223d66f6bf601fa7230288"
+}
+
