@@ -58,11 +58,31 @@
 
 
 ## blockchain
+* [blockchain](blockchain/readme.md)
 * [blockStruct](blockchain/blockStruct.md)
 * [genesisBlock](blockchain/genesisBlock.md)
 * [merkleTrees](blockchain/merkleTrees.md)
 * [nonProduction](blockchain/nonProduction.md)
 * [play2](blockchain/play2.md)
+
+
+## mining
+* [mining](mining/readme.md)
+* [assembling](mining/assembling.md)
+* [coinbaseTransaction](mining/coinbaseTransaction.md)
+* [consensus](mining/consensus.md)
+* [extraNonce](mining/extraNonce.md)
+* [forks](mining/forks.md)
+* [p2Pool](mining/p2Pool.md)
+* [pools](mining/pools.md)
+* [proffOfWrk](mining/proffOfWrk.md)
+* [target](mining/target.md)
+* [validating](mining/validating.md)
+
+## forks
+* [bip65](forks/bip65.md)
+* [signaling](forks/signaling.md)
+* [soft](forks/soft.md)
 
 
 ## ideas
@@ -101,4 +121,6 @@
 * [explore1](bitcoinGIT/explore1.md)
 
 
+# attacks
+* [51attack](attacks/51attack.md)
 
