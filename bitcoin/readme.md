@@ -84,6 +84,16 @@
 * [signaling](forks/signaling.md)
 * [soft](forks/soft.md)
 
+## apps
+* [appliations](apps/appliations.md)
+* [buildingBlocks](apps/buildingBlocks.md)
+* [channels](apps/channels.md)
+* [counterparty](apps/counterparty.md)
+* [htlc](apps/htlc.md)
+
+# lightning
+* [lightning](lightning/readme.md)
+
 
 ## ideas
 * [forkology](ideas/forkology.md)
