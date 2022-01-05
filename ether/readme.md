@@ -6,6 +6,8 @@
 * [basic](basic/readme.md)
 * [ether](basic/ether.md)
 * [types](basic/types.md)
+* [networks](basic/networks.md)
+
 
 # wallets
 * [wallets](wallets/readme.md)

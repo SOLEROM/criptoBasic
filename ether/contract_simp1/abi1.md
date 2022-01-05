@@ -1,0 +1,39 @@
+#
+
+
+* build on remix 
+
+```
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "withdraw_amount",
+				"type": "uint256"
+			}
+		],
+		"name": "withdraw",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	}
+]
+
+```
+
+
+## 
+
+```
+npm install solc
+
+
+
+
+
+```

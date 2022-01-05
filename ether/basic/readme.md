@@ -7,6 +7,10 @@
 
 ## topics
 
+* [ether](ether.md)
+* [types](types.md)
+* [networks](networks.md)
+
 
 ## tools
 * [geth-help](geth-help.md)
