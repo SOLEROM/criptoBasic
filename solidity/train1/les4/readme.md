@@ -2,4 +2,4 @@
 
 ## topics
 
-* (simple_storage)[./simple_storage.md]
+* (deploy)[./deploy.md]
