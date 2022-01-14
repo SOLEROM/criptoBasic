@@ -1,3 +1,6 @@
 [submodule "solidity/train1/les4/web3_py_simple_storage"]
 	path = solidity/train1/les4/web3_py_simple_storage
 	url = https://github.com/PatrickAlphaC/web3_py_simple_storage.git
+[submodule "solidity/train1/les5/brownie_simple_storage"]
+	path = solidity/train1/les5/brownie_simple_storage
+	url = https://github.com/PatrickAlphaC/brownie_simple_storage.git
